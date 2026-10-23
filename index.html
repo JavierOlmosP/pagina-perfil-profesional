@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head lang="es">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Perfil Profesional</title>
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    </head> 
+    <body>
+        
+        <header class="encabezado">
+            <a class="logo" href="#inicio">RO.</a>
+
+            <nav class="navegacion">
+                <a href="#inicio">Inicio</a>
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#formacion">Formación</a>
+                <a href="#intereses">Intereses</a>
+                <a href="#enlaces">Enlaces Relacionados</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="portada" id="inicio">
+                <div class="portada-contenido">
+                    <p class ="subtitulo">ESTUDIANTE DE INGENIERÍA EN SOFTWARE</p>
+                    <h1>Ricardo Javier <br> Olmos Proaño</h1>
+                    <p class="frase">Interesado en la tecnologia, el desarrollo de software y el aprendizaje constante.</p>
+                    <a class="boton" href="#sobre-mi">Conoce mi perfil</a>
+                </div>
+                <div class="portada-foto">
+                    <img src="./imagenes/fotoPerfil.jpg" alt="Fotografía de Perfil">
+                </div>
+            </section>
+
+            <section class="sobre-mi" id="sobre-mi">    
+                <div class="sobre-mi-titulo">
+                    <p class="etiqueta">CONÓCEME</p>
+                    <h2>Sobre mi</h2>
+                </div>
+
+                <div class="sobre-mi-contenido">
+                    <p>
+                        Estudiante de Ingeniería en Software, interesado en el desarrollo de software y las nuevas tecnologías. 
+                        Cuento con conocimientos en programación, en especial en C++, y busco mejorar mis habilidades constantemente.  
+                    </p>
+
+                    <p>Me gusta aprender, resolver problemas y conocer nuevas herrramientas que me permitan crecer tanto en lo academica como profesionalmente.</p>
+                </div>
+            </section>
+
+            <section class="formacion" id="formacion">
+                <div class="formacion-encabezado">
+                    <p class="etiqueta">MI TRAYECTORIA</p>
+                    <h2>Formación Académica</h2>
+                    <p class="formacion-descripcion">Mi preparación académica y las bases de mi desarrollo profesional.</p>
+                </div>
+
+                <div class="formacion-tarjetas">
+                    
+                    <article class="tarjeta-formacion">
+
+                        <div class="icono-formacion">
+                            <i class="fa-solid fa-book-open" aria-hidden="true"></i>
+                        </div>
+                        
+                        <div class="datos-formacion"> 
+                            <h3 class="datos-formacion">Ingeniería en Software</h3>
+                            <p class="fecha"> 2024 - ACTUALIDAD</p>
+                            <p class="institucion">Universidad de las Fuerzas Armadas - ESPE</p>
+                            <p class="ubicacion"> Quito, Ecuador</p>
+                            <p>Formación orientada al desarrollo de software, la programación y la solución de problemas mediante herramientas tecnológicas.</p>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta-formacion">
+                        
+                        <div class="icono-formacion">
+                            <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+                        </div>
+                        <div class="datos-formacion">
+                            <h3>Educación Secundaria</h3>
+                            <p class="fecha">2011 - 2017</p>
+                            <p class="institucion">Instituto Nacional Mejía</p>
+                            <p class="ubicacion">Quito, Ecuador</p>
+                            <p>Etapa de formación académica que sentó las bases para continuar mis estudios superiores.</p>
+                        </div>    
+                    </article>
+                </div>
+            </section>
+            <section class="intereses" id="intereses">
+                <div class="intereses-encabezado">
+                    <p class="etiqueta">LO QUE ME APASIONA</p>
+                    <h2>Áreas de Interés</h2>
+                    <p>Algunos de los campos tecnológicos que me gustaría seguir explorando y desarrollando.</p>
+                </div>
+
+                <div class="intereses-tarjetas">
+                    <article class="tarjeta-interes">
+                        <img src="./imagenes/DesarrolloSoftware.jpeg" alt="Desarrollo de Software">
+                        <h3>Desarrollo de Software</h3>
+                    </article>
+
+                    <article class="tarjeta-interes">
+                        <img src="./imagenes/ciberseguridad.png" alt="Ciberseguridad">
+                        <h3>Ciberseguridad</h3>
+                    </article>
+
+                    <article class="tarjeta-interes">
+                        <img src="./imagenes/inteligenciaArtificial.jpeg" alt="Inteligencia Artificial">
+                        <h3>Inteligencia Artificial</h3>
+                    </article>
+
+                    <article class="tarjeta-interes">
+                        <img src="./imagenes/desarrolloWeb.jpg" alt="Desarrollo Web">
+                        <h3>Desarrollo Web</h3>
+                    </article>
+
+                    <article class="tarjeta-interes">
+                        <img src="./imagenes/desarrolloVideojuegos.jpeg" alt="Desarrollo de Videojuegos">
+                        <h3>Desarrollo de Videojuegos</h3>
+                    </article>
+
+                    <article class="tarjeta-interes">
+                        <img src="./imagenes/tecnologiasEmergentes.jpeg" alt="Tecnologías Emergentes">
+                        <h3>Tecnologías Emergentes</h3>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="pie-pagina">
+            <section class="tablonario">
+                <div class="pie-contenido">
+                    <div class="pie-informacion">
+
+                        <section class="pie-contacto" id="contacto">
+                            <h2>Contacto</h2>
+                            <p>Si deseas contactarme o tienes alguna consulta, puedes escribirme a través del siguiente formulario.</p>
+                        </section>
+
+                        <section class="pie-enlaces" id="enlaces">
+                            <h3>Enlaces relacionados</h3>
+                            <div class="enlaces-lista">
+                                <a href="https://github.com/JavierOlmosP" target="_blank" rel="noopener noreferrer" ><img src="https://imgs.search.brave.com/lVbcvApxL5vj9x-RDzUtXiyLzEDsnXN3TIoFDz-pHJM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/bG9nby5kZXYvZ2l0/aHViLmNvbT90b2tl/bj1saXZlXzZhMWEy/OGZkLTY0MjAtNDQ5/Mi1hZWIwLWIyOTc0/NjFkOWRlMiZzaXpl/PTEyOCZyZXRpbmE9/dHJ1ZSZmb3JtYXQ9/cG5n" width="35" alt="GitHub">Visitar GitHub</a>
+                                <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener noreferrer"><img src="https://imgs.search.brave.com/4Q6S8dO5UMB-ymCVNbpI84e3Yn2Q1YkOQE1_x5lxjNk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly91eHdp/bmcuY29tL3dwLWNv/bnRlbnQvdGhlbWVz/L3V4d2luZy9kb3du/bG9hZC9icmFuZHMt/YW5kLXNvY2lhbC1t/ZWRpYS93M3NjaG9v/bHMtbG9nby1pY29u/LnBuZw" width="35" alt="W3Schools">Explorar W3Schools</a>
+                                <a href="https://www.espe.edu.ec/" target="_blank" rel="noopener noreferrer"><img src="https://imgs.search.brave.com/0CD3q48XbEJsUSOOY4EZHOkCUmtBRwHjw-CZbdTVUxI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91bml2/ZXJzaWRhZGVzLmVj/L19uZXh0L2ltYWdl/P3VybD1odHRwczov/L21vcmlhLmF1cmVu/cy5jb20vb3JnYW5p/emF0aW9ucy82M2E5/MTFhNS1jZjVlLTRl/YzctYTA2NS1jOTli/NjI5MTIwZTMvbG9n/b3MvOHhlMnVmLUlN/R18yNTEzLnBuZyZ3/PTM4NDAmcT03NQ" width="39" alt="ESPE">Visita ESPE</a>
+                            </div>
+                        </section>
+                    </div>
+
+                    <form class="formulario" action="./procesar.php" method="GET">
+
+                        <div class="formulario-campo">
+                            <label for="nombre">Nombre completo</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo" required>
+                        </div>
+
+                        <div class="formulario-campo">
+                            <label for="correo">Correo electrónico</label>
+                            <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo" required>
+                        </div>
+
+                        <div class="formulario-campo">
+                            <label for="fechaNacimiento">Fecha de nacimiento</label>
+                            <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+                        </div>
+
+                        <fieldset class="formulario-opciones">
+                            <legend>Modalidad</legend>
+
+                            <label>
+                                <input type="radio" name="modalidad" value="1">
+                                Matutina
+                            </label>
+
+                            <label>
+                                <input type="radio" name="modalidad" value="2">
+                                Vespertina
+                            </label>
+
+                            <label>
+                                <input type="radio" name="modalidad" value="3">
+                                Nocturna
+                            </label>
+                        </fieldset>
+
+                        <fieldset class="formulario-opciones">
+                            <legend>Áreas de interés</legend>
+
+                            <label>
+                                <input type="checkbox"
+                                    name="areasInteres[]"
+                                    value="1">
+                                Programación
+                            </label>
+
+                            <label>
+                                <input type="checkbox"
+                                    name="areasInteres[]"
+                                    value="2">
+                                Deporte
+                            </label>
+
+                            <label>
+                                <input type="checkbox"
+                                    name="areasInteres[]"
+                                    value="3">
+                                Música
+                            </label>
+                        </fieldset>
+
+                        <div class="formulario-campo campo-mensaje">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="3"
+                                    placeholder="Escribe tu mensaje aquí"></textarea>
+                        </div>
+
+                        <button class="boton-enviar" type="submit"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                            Enviar mensaje
+                        </button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="barra-final">
+                <div class="pie-final">
+                    <p>© 2026 Ricardo Javier Olmos Proaño. Todos los derechos reservados.</p>
+                    <a class="volver-arriba" href="#inicio" aria-label="Volver al inicio">↑</a>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>
